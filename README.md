@@ -1,9 +1,8 @@
 # Awesome-Robot-Skill-Learning
 
 <p align="center">
-<img src="./files/logo.png" width="200" />
+<img src="./files/logo.png" width="250" />
 </p>
-<h1 align="center">Awesome-Robot-Skill-Learning</h1>
 
 ## Introduction
 
