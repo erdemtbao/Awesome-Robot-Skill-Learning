@@ -6,7 +6,7 @@
 <img src="./files/logo.png" width="250" />
 </p>
 
-> A curated and structured reading list for reusable robot skill learning, covering skill abstraction, acquisition, composition, transfer, continual expansion, VLM/VLA policies, and LLM-guided robot systems.
+> Awesome-Robot-Skill-Learning is a curated collection of resources, papers, datasets, and tools related to robot skill learning. Our goal is to provide researchers and practitioners with a comprehensive overview of the latest advancements in teaching robots to acquire new skills through machine learning approaches.
 
 ## Contents
 
