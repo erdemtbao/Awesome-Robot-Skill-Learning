@@ -1,4 +1,4 @@
-# Awesome Robotics Skill Learning
+# Awesome Robot Skill Learning
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
