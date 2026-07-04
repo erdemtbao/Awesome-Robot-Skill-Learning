@@ -8,10 +8,6 @@
 
 > A curated and structured reading list for reusable robot skill learning, covering skill abstraction, acquisition, composition, transfer, continual expansion, VLM/VLA policies, and LLM-guided robot systems.
 
-**Scope.** This list focuses on papers, project pages, code links, benchmarks, datasets, and learning resources related to reusable skills for embodied agents and robots.  
-**Source.** Seeded from `D:\awesome\Awesome-Robotics-Skill-Learning.pdf`; paper and project metadata were checked against public indexes and project pages where available.  
-**Last updated.** 2026-07-04.
-
 ## Contents
 
 - [Awesome Robotics Skill Learning](#awesome-robotics-skill-learning)
@@ -51,15 +47,6 @@
 - **40** project-page links and **34** code-availability entries are included when they can be identified from the PDF or public metadata.
 - The same paper can appear in multiple sections when the source PDF placed it in multiple contexts; this preserves the original reading structure.
 
-## How to Read This List
-
-- **Paper** links to the paper PDF, DOI, arXiv page, Semantic Scholar page, OpenAlex page, or another public paper record.
-- **Project Web** is intentionally conservative: it only shows `[Project](...)` when a project homepage is available; GitHub-only links are placed under **Code**.
-- **Code** includes verified repository links when available, or the original source-table availability marker when the URL was not recoverable.
-- **Sim** and **Real** indicate whether the paper reports simulated or real-robot evaluation in the source table or inferred metadata.
-- **Skill** summarizes the reusable behavior, abstraction, library, planner, primitive, or policy family most relevant to robot skill learning.
-- **Summary** is a compact, structured note written for triage rather than a full paper review.
-
 ## Papers
 
 ### Atomic Skill Definition / Survey
@@ -74,8 +61,6 @@
 
 ### Imitation Learning
 
-> Online verification: 4 verified, 0 not reliably found.
-
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Actionable models: Unsupervised offline reinforcement learning of robotic skills | ICML 2021 | [Paper](https://arxiv.org/pdf/2104.07749) | [Project](https://actionable-models.github.io) |  | KUKA | Manipulation | Yes | Yes | Sim skill: Pick-and-place, Stacking, Fixture placing, Food object grasping<br>Real skill: Instance grasping, Rearrangement, Container placing | Goal-conditioned offline skill chaining; Learns or composes skills through reinforcement learning; main skill focus: RL-acquired skills. Verified online: arXiv (Cornell University) 2021. |
@@ -85,25 +70,13 @@
 
 #### Behavioral Cloning
 
-> Online verification: 3 verified, 0 not reliably found.
-
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Learning Generalizable Dexterous Manipulation from Human Grasp Affordance | CoRL 2023 | [Paper](https://arxiv.org/pdf/2204.02320) | [Project](https://kristery.github.io/ILAD/) |  |  | Imitation Learning / Manipulation | Yes | Yes | dexterous manipulation | Studies robot skill learning methods; main skill focus: dexterous manipulation. Verified online: arXiv (Cornell University) 2022. |
 | D-Cubed: Latent Diffusion Trajectory Optimisation for Dexterous Deformable Manipulation | CoRL 2024 | [Paper](https://arxiv.org/pdf/2403.12861) |  |  |  | Imitation Learning / Diffusion Policy | Yes | Yes | dexterous manipulation | Uses diffusion models to generate, compose, or execute skills; main skill focus: dexterous manipulation. Verified online: arXiv (Cornell University) 2024. |
 | DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation | CVPR 2025 | [Paper](https://doi.org/10.1109/cvpr52734.2025.00170) |  |  |  | Imitation Learning / Diffusion Policy | Yes | Yes | dexterous manipulation | Uses diffusion models to generate, compose, or execute skills; main skill focus: dexterous manipulation. Verified online: 2025. |
 
-#### Reward Inference
-
-> No PDF-listed papers yet.
-
-#### Learning from Observation
-
-> No PDF-listed papers yet.
-
 #### Corrective Interactions
-
-> Online verification: 42 verified, 4 not reliably found.
 
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -156,8 +129,6 @@
 
 ### Reinforcement Learning
 
-> Online verification: 27 verified, 0 not reliably found.
-
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Actionable models: Unsupervised offline reinforcement learning of robotic skills | ICML 2021 | [Paper](https://arxiv.org/pdf/2104.07749) | [Project](https://actionable-models.github.io) |  | KUKA | Manipulation | Yes | Yes | Sim skill: Pick-and-place, Stacking, Fixture placing, Food object grasping<br>Real skill: Instance grasping, Rearrangement, Container placing | Goal-conditioned offline skill chaining; Learns or composes skills through reinforcement learning; main skill focus: RL-acquired skills. Verified online: arXiv (Cornell University) 2021. |
@@ -187,38 +158,10 @@
 | Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors | CoRL 2025 Oral | [Paper](http://hdl.handle.net/20.500.11850/791872) |  | GitHub | IsaacLab, ANYmal-D | Locomotion | Yes | Yes | pitching, walking, ducking, rotating | Modular Unsupervised Skill Discovery via State Factorization for Disentangled Representations; Learns or composes skills through reinforcement learning; main skill focus: skill discovery / abstraction. Verified online: Repository for Publications and Research Data (ETH Zurich) 2025. |
 | Goal-Oriented Skill Abstraction for Offline Multi-Task Reinforcement Learning | ICML 2025 | [Paper](https://arxiv.org/abs/2507.06628) |  |  | MetaWorld | Manipulation | Yes | No | skill abstraction | Goal-Oriented Skill Abstraction for Offline Multi-Task RL with Discrete Skill Libraries and Hierarchical Policies; Learns or composes skills through reinforcement learning; main skill focus: skill abstraction. Verified online: arXiv 2025. Manual web verification included. |
 | Local Policies Enable Zero-shot Long-horizon Manipulation | ICRA 2025 | [Paper](https://doi.org/10.1109/icra55743.2025.11128407) | [Project](https://mihdalal.github.io/manipgen) | GitHub | Robosuite, FurnitureBench | Manipulation | Yes | Yes | robot manipulation | Sim-to-Real Local Policy Transfer via Foundation Models for Robotic Manipulation; Learns or composes skills through reinforcement learning; main skill focus: robot manipulation. Verified online: 2025. |
-
-#### Model-Based RL
-
-> Online verification: 1 verified, 0 not reliably found.
-
-| Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
-|---|---|---|---|---|---|---|---|---|---|---|
 | ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning | arxiv 2025 | [Paper](https://arxiv.org/pdf/2512.16861) | [Project](https://reinforcegen.github.io/) |  | Robosuite, robosuite | Reinforcement Learning | Yes | Yes | robot manipulation | Learns or composes skills through reinforcement learning; main skill focus: robot manipulation. Verified online: ArXiv.org 2025. |
-
-#### Model-Free RL
-
-> Online verification: 1 verified, 0 not reliably found.
-
-| Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
-|---|---|---|---|---|---|---|---|---|---|---|
 | Acquiring Diverse Skills using Curriculum Reinforcement Learning with Mixture of Experts | ICML 2024 | [Paper](https://arxiv.org/pdf/2403.06966) | [Project](https://alrhub.github.io/di-skill-website/) |  |  | Reinforcement Learning | Yes | Yes | RL-acquired skills | Learns or composes skills through reinforcement learning; main skill focus: RL-acquired skills. Verified online: arXiv (Cornell University) 2024. |
 
-#### Value Function Methods
-
-> No PDF-listed papers yet.
-
-#### Policy Search Methods
-
-> No PDF-listed papers yet.
-
-#### On-Policy vs Off-Policy Learning
-
-> No PDF-listed papers yet.
-
 #### Exploration Strategies
-
-> Online verification: 27 verified, 0 not reliably found.
 
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -252,8 +195,6 @@
 
 ### Continual Learning
 
-> Online verification: 9 verified, 0 not reliably found.
-
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Lifelong Language-Conditioned Robotic Manipulation Learning | arxiv 2026 | [Paper](https://doi.org/10.1609/aaai.v40i22.38930) |  |  |  | Continual / Lifelong Learning / Language-conditioned | Yes | Yes | robot manipulation | Uses language/foundation models for skill planning, annotation, reward design, or execution; main skill focus: robot manipulation. Verified online: Proceedings of the AAAI Conference on Artificial Intelligence 2026. |
@@ -267,8 +208,6 @@
 | Stellar VLA: Continually Evolving Skill Knowledge in VLA Model | arXiv 2025 | [Paper](https://arxiv.org/abs/2511.18085) |  |  | LIBERO | Continual / Lifelong Learning / Language-conditioned | Yes | Yes | open-source plan announced, standard Coming Soon notice, arXiv | Uses language/foundation models for skill planning, annotation, reward design, or execution; main skill focus: open-source plan announced, standard Coming Soon notice, arXiv. Verified online: arXiv 2025. Manual web verification included. |
 
 ### VLM/VLA
-
-> Online verification: 15 verified, 0 not reliably found.
 
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -288,13 +227,8 @@
 | AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots | CVPR 2026 | [Paper](https://arxiv.org/pdf/2603.07648) | [Project](https://zhanglk9.github.io/atomicvla-web/) | Code | LIBERO benchmark, real-world manipulation | Manipulation / Continual Learning | Yes | Yes | Sim skill: LIBERO sequential tasks<br>Real skill: Place plate in microwave, put blocks/food into plate, open drawer | AtomicVLA utilizes a Skill-Guided Mixture-of-Experts to build a scalable atomic skill library for long-horizon planning and continual learning.; Uses language/foundation models for skill planning, annotation, reward design, or execution; main skill focus: skill abstraction. Verified online: arXiv (Cornell University) 2026. |
 | AtomVLA: Scalable Post-Training for Robotic Manipulation via Predictive Latent World Models | arxiv 2026 | [Paper](https://doi.org/10.48550/arxiv.2603.08519) |  |  | Simulation and real-world robot demonstrations | Manipulation / Post-Training | Yes | Yes | Sim skill: Subtask execution, place bottle on rack<br>Real skill: Put mug in microwave, pick and place items | AtomVLA employs predictive latent world models for scalable VLA post-training to mitigate error accumulation in long-horizon tasks.; Uses language/foundation models for skill planning, annotation, reward design, or execution; main skill focus: robot manipulation. Verified online: Open MIND 2026. |
 
-### Hybrid Approaches
-
-> No PDF-listed papers yet.
 
 ### Robot & LLM
-
-> Online verification: 12 verified, 0 not reliably found.
 
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
