@@ -42,16 +42,12 @@
 
 ## Overview
 
-- **148** section-level paper entries, covering **115** unique paper titles across **11** PDF-derived sections.
-- **144** entries matched public paper indexes; **4** entries remain explicitly marked as not reliably found.
-- **40** project-page links and **34** code-availability entries are included when they can be identified from the PDF or public metadata.
-- The same paper can appear in multiple sections when the source PDF placed it in multiple contexts; this preserves the original reading structure.
+- **148** sectio
+
 
 ## Papers
 
 ### Atomic Skill Definition / Survey
-
-> Online verification: 3 verified, 0 not reliably found.
 
 | Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
