@@ -11,9 +11,7 @@
 ## Contents
 
 - [Awesome Robotics Skill Learning](#awesome-robotics-skill-learning)
-  - [Contents](#contents)
   - [Overview](#overview)
-  - [How to Read This List](#how-to-read-this-list)
   - [Papers](#papers)
     - [Atomic Skill Definition / Survey](#atomic-skill-definition--survey)
     - [Imitation Learning](#imitation-learning)
