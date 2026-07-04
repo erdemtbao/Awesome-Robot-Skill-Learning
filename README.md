@@ -18,7 +18,6 @@
     - [Reinforcement Learning](#reinforcement-learning)
     - [Continual Learning](#continual-learning)
     - [VLM/VLA](#vlmvla)
-    - [Hybrid Approaches](#hybrid-approaches)
     - [Robot \& LLM](#robot--llm)
   - [Benchmarks](#benchmarks)
     - [Manipulation](#manipulation)
