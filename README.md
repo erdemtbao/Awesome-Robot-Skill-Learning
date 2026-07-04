@@ -34,7 +34,6 @@
 
 In embodied AI, a skill is a reusable, goal-directed behavior abstraction that maps perception, context, and task intent to a temporally extended action. It can appear as a motion primitive, learned policy, subtask module, affordance-conditioned controller, or language-callable routine such as grasping, navigation, tool use, and recovery. Skill learning studies how these behaviors are represented, acquired, composed, transferred, and continually expanded so robots can solve new tasks with less data and more reliable real-world execution.
 
-
 ## Papers
 
 ### Atomic Skill Definition / Survey
