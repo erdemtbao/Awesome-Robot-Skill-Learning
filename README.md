@@ -17,17 +17,7 @@
   - [Papers](#papers)
     - [Atomic Skill Definition / Survey](#atomic-skill-definition--survey)
     - [Imitation Learning](#imitation-learning)
-      - [Behavioral Cloning](#behavioral-cloning)
-      - [Reward Inference](#reward-inference)
-      - [Learning from Observation](#learning-from-observation)
-      - [Corrective Interactions](#corrective-interactions)
     - [Reinforcement Learning](#reinforcement-learning)
-      - [Model-Based RL](#model-based-rl)
-      - [Model-Free RL](#model-free-rl)
-      - [Value Function Methods](#value-function-methods)
-      - [Policy Search Methods](#policy-search-methods)
-      - [On-Policy vs Off-Policy Learning](#on-policy-vs-off-policy-learning)
-      - [Exploration Strategies](#exploration-strategies)
     - [Continual Learning](#continual-learning)
     - [VLM/VLA](#vlmvla)
     - [Hybrid Approaches](#hybrid-approaches)
@@ -63,19 +53,9 @@ In embodied AI, a skill is a reusable, goal-directed behavior abstraction that m
 | Learning Generalizable Dexterous Manipulation from Human Grasp Affordance | CoRL 2023 | [Paper](https://arxiv.org/pdf/2204.02320) | [Project](https://kristery.github.io/ILAD/) | Code |  | Manipulation | Yes | No | dexterous manipulation | Studies robot skill learning methods; main skill focus: dexterous manipulation. Verified online: arXiv (Cornell University) 2022. |
 | D-Cubed: Latent Diffusion Trajectory Optimisation for Dexterous Deformable Manipulation | CoRL 2024 | [Paper](https://arxiv.org/pdf/2403.12861) |  |  |  | Imitation Learning / Diffusion Policy | Yes | Yes | dexterous manipulation | Uses diffusion models to generate, compose, or execute skills; main skill focus: dexterous manipulation. Verified online: arXiv (Cornell University) 2024. |
 | DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation | CVPR 2025 | [Paper](https://doi.org/10.1109/cvpr52734.2025.00170) |  |  |  | Imitation Learning / Diffusion Policy | Yes | Yes | dexterous manipulation | Uses diffusion models to generate, compose, or execute skills; main skill focus: dexterous manipulation. Verified online: 2025. |
-
-#### Behavioral Cloning
-
-| Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
-|---|---|---|---|---|---|---|---|---|---|---|
 | Learning Generalizable Dexterous Manipulation from Human Grasp Affordance | CoRL 2023 | [Paper](https://arxiv.org/pdf/2204.02320) | [Project](https://kristery.github.io/ILAD/) |  |  | Imitation Learning / Manipulation | Yes | Yes | dexterous manipulation | Studies robot skill learning methods; main skill focus: dexterous manipulation. Verified online: arXiv (Cornell University) 2022. |
 | D-Cubed: Latent Diffusion Trajectory Optimisation for Dexterous Deformable Manipulation | CoRL 2024 | [Paper](https://arxiv.org/pdf/2403.12861) |  |  |  | Imitation Learning / Diffusion Policy | Yes | Yes | dexterous manipulation | Uses diffusion models to generate, compose, or execute skills; main skill focus: dexterous manipulation. Verified online: arXiv (Cornell University) 2024. |
 | DexHandDiff: Interaction-aware Diffusion Planning for Adaptive Dexterous Manipulation | CVPR 2025 | [Paper](https://doi.org/10.1109/cvpr52734.2025.00170) |  |  |  | Imitation Learning / Diffusion Policy | Yes | Yes | dexterous manipulation | Uses diffusion models to generate, compose, or execute skills; main skill focus: dexterous manipulation. Verified online: 2025. |
-
-#### Corrective Interactions
-
-| Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
-|---|---|---|---|---|---|---|---|---|---|---|
 | LISA: Learning Interpretable Skill Abstractions from Language | NeurIPS 2022 | [Paper](https://arxiv.org/pdf/2203.00054) |  | GitHub | BabyAI, LOReL | Manipulation, Navigation | Yes | No | skill abstraction | VQ Codebook Skill Abstraction; Uses language/foundation models for skill planning, annotation, reward design, or execution; main skill focus: skill abstraction. Verified online: arXiv (Cornell University) 2022. |
 | Learning Language-Conditioned Robot Behavior from Offline Data and Crowd-Sourced Annotation | CoRL 2021 | [Paper](https://arxiv.org/pdf/2109.01115) |  |  | Franka | Imitation Learning / Language-conditioned | Yes | Yes | robot manipulation | Uses language/foundation models for skill planning, annotation, reward design, or execution; main skill focus: robot manipulation. Verified online: arXiv (Cornell University) 2021. |
 | SkillDiffuser: Interpretable Hierarchical Planning via Skill Abstractions in Diffusion-Based Task Execution | CVPR 2024 | [Paper](https://doi.org/10.1109/cvpr52733.2024.01558) |  |  | Meta-World, LOReL | Imitation Learning / Diffusion Policy | Yes | Yes | skill abstraction | Uses diffusion models to generate, compose, or execute skills; main skill focus: skill abstraction. Verified online: 2024. |
@@ -156,11 +136,6 @@ In embodied AI, a skill is a reusable, goal-directed behavior abstraction that m
 | Local Policies Enable Zero-shot Long-horizon Manipulation | ICRA 2025 | [Paper](https://doi.org/10.1109/icra55743.2025.11128407) | [Project](https://mihdalal.github.io/manipgen) | GitHub | Robosuite, FurnitureBench | Manipulation | Yes | Yes | robot manipulation | Sim-to-Real Local Policy Transfer via Foundation Models for Robotic Manipulation; Learns or composes skills through reinforcement learning; main skill focus: robot manipulation. Verified online: 2025. |
 | ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning | arxiv 2025 | [Paper](https://arxiv.org/pdf/2512.16861) | [Project](https://reinforcegen.github.io/) |  | Robosuite, robosuite | Reinforcement Learning | Yes | Yes | robot manipulation | Learns or composes skills through reinforcement learning; main skill focus: robot manipulation. Verified online: ArXiv.org 2025. |
 | Acquiring Diverse Skills using Curriculum Reinforcement Learning with Mixture of Experts | ICML 2024 | [Paper](https://arxiv.org/pdf/2403.06966) | [Project](https://alrhub.github.io/di-skill-website/) |  |  | Reinforcement Learning | Yes | Yes | RL-acquired skills | Learns or composes skills through reinforcement learning; main skill focus: RL-acquired skills. Verified online: arXiv (Cornell University) 2024. |
-
-#### Exploration Strategies
-
-| Title | Venue | Paper | Project Web | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
-|---|---|---|---|---|---|---|---|---|---|---|
 | Actionable models: Unsupervised offline reinforcement learning of robotic skills | ICML 2021 | [Paper](https://arxiv.org/pdf/2104.07749) | [Project](https://actionable-models.github.io) |  |  | Reinforcement Learning |  | Yes | RL-acquired skills | Learns or composes skills through reinforcement learning; main skill focus: RL-acquired skills. Verified online: arXiv (Cornell University) 2021. |
 | A Single Goal is All You Need: Skills and Exploration Emerge from Contrastive RL without Rewards, Demonstrations, or Subgoals | ICLR 2025 | [Paper](https://arxiv.org/pdf/2408.05804) |  |  |  | Reinforcement Learning | Yes |  | robot manipulation | Learns or composes skills through reinforcement learning; main skill focus: robot manipulation. Verified online: arXiv (Cornell University) 2024. |
 | Option-aware Temporally Abstracted Value for Offline Goal-Conditioned Reinforcement Learning | NeurIPS 2025 spotlight | [Paper](https://arxiv.org/pdf/2505.12737) |  |  | OGbench | Reinforcement Learning | Yes | Yes | robot manipulation | Learns or composes skills through reinforcement learning; main skill focus: robot manipulation. Verified online: ArXiv.org 2025. |
