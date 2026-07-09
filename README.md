@@ -254,7 +254,7 @@ The columns in each table are: **Title**, **Venue**, **Paper**, **Project**, **C
 - **MIT Robotic Manipulation** ([Course](https://manipulation.csail.mit.edu/)) — Russ Tedrake's course and notes on perception, planning, and control for manipulation, with runnable notebooks.
 - **CMU 16-831 — Introduction to Robot Learning** ([Course](https://sites.google.com/view/robot-learning-cmu-16831/)) — graduate course covering imitation learning, RL, and modern robot-learning methods.
 - **OpenAI Spinning Up in Deep RL** ([Guide](https://spinningup.openai.com/)) — educational write-ups and reference implementations of core deep-RL algorithms.
-- **A Review of Robot Learning for Manipulation** ([Survey](https://arxiv.org/abs/1907.03146)) — Kroemer, Niekum, and Konidaris's comprehensive JMLR survey of manipulation learning.
+- **A Review of Robot Learning for Manipulation** ([Survey](https://www.jmlr.org/papers/v22/19-804.html)) — Kroemer, Niekum, and Konidaris's comprehensive JMLR survey of manipulation learning.
 - **Diffusion Policy** ([Code](https://github.com/real-stanford/diffusion_policy)) — reference implementation of visuomotor diffusion policies, a widely used skill-learning baseline.
 - **ACT / ALOHA** ([Code](https://github.com/tonyzhaozh/act)) — Action Chunking with Transformers imitation-learning codebase for low-cost bimanual manipulation.
 - **LeRobot** ([Code](https://github.com/huggingface/lerobot)) — Hugging Face's PyTorch library of models, datasets, and tools for real-world robot learning.
