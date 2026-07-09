@@ -38,9 +38,9 @@ The columns in each table are: **Title**, **Venue**, **Paper**, **Project**, **C
 
 | Title | Venue | Paper | Project | Code | Robot/Dataset/Benchmark | Classification | Sim | Real | Skill | Summary |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Capability-based Frameworks for Industrial Robot Skills: a Survey | IEEE CASE 2022 | [Paper](https://arxiv.org/abs/2203.00538) | | | - | Survey | - | - | skill taxonomy | Surveys industrial robot skill frameworks and argues for a unified task/skill/primitive taxonomy for describing robot capabilities. |
-| Skill Transfer Learning for Autonomous Robots and Human-Robot Cooperation: A Survey | Robotics and Autonomous Systems 2020 | [Paper](https://doi.org/10.1016/j.robot.2020.103515) | | | - | Survey | - | - | skill transfer | Reviews methods for transferring and adapting learned skills across tasks and between humans and autonomous robots. |
-| A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms | JMLR 2021 | [Paper](https://arxiv.org/abs/1907.03146) | | | - | Survey | - | - | manipulation learning | Foundational review that formalizes the robot-manipulation learning problem and surveys its representations and algorithms. |
+| Capability-based Frameworks for Industrial Robot Skills: a Survey | IEEE CASE 2022 | [Paper](https://arxiv.org/abs/2203.00538) | | [Code](https://github.com/teiband/industrial-skill-review) | - | Survey | - | - | skill taxonomy | Surveys industrial robot skill frameworks (210 papers) and argues for a unified task/skill/primitive taxonomy for describing robot capabilities. |
+| Skill Transfer Learning for Autonomous Robots and Human-Robot Cooperation: A Survey | Robotics and Autonomous Systems 2020 | [Paper](https://doi.org/10.1016/j.robot.2020.103515) | | | - | Survey | - | - | skill transfer | Reviews human-to-robot skill transfer learning (STL) via demonstrations and physiological signals in autonomous robotics and human–robot cooperation. |
+| A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms | JMLR 2021 | [Paper](https://www.jmlr.org/papers/v22/19-804.html) | | | - | Survey | - | - | manipulation learning | Foundational review that formalizes the robot-manipulation learning problem and surveys its representations and algorithms. |
 
 ### Skill Discovery and Skill Abstraction
 
