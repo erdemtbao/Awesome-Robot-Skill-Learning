@@ -256,7 +256,6 @@ The columns in each table are: **Title**, **Venue**, **Paper**, **Project**, **C
 | RoboSet | [Dataset](https://robopen.github.io/roboset/) | ~98k Franka manipulation trajectories (teleop + kinesthetic) covering everyday kitchen skills. |
 | CALVIN | [Dataset](https://github.com/mees/calvin) | Teleoperated "play" data across four environments, accompanying the CALVIN language-conditioned benchmark. |
 | VIMA | [Dataset](https://huggingface.co/datasets/VIMA/VIMA-Data) | 650K multimodal-prompted imitation trajectories accompanying VIMA-Bench. |
-| LIBERO-Pro (configs) | [Dataset](https://huggingface.co/datasets/zhouxueyang/LIBERO-Pro) | BDDL and init files for LIBERO-PRO perturbation evaluations. |
 
 ## Learning Resources
 
